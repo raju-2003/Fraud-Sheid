@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fraud shield"
+version = "0.1.0"
+description = ""
+authors = ["raju-2003 <2003braj@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.26.0"
+langchain = "^0.0.285"
+openai = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
