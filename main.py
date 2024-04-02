@@ -43,8 +43,8 @@ def fraud(search):
     )
 
     # Create the template
-    template = """Analyze this message : {topic} in all social media apps . Give me the profile id of the person who posted this message."""
-
+    # Give your own prompt with variable as template
+    
     # Generate the response
     response: str = agent.run(template.format(topic=search))
 
